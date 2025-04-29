@@ -41,7 +41,7 @@ The screenshots above show the complete CI/CD pipeline in action, demonstrating 
 
 ## 🗺️ Architecture Overview
 
-![AWS CI/CD Pipeline Architecture](architecture/aws-cicd-architecture-diagram.svg)
+![AWS CI/CD Pipeline Architecture](architecture/aws-cicd-architecture-diagram.png)
 
 The architecture follows modern DevOps practices by creating a fully automated workflow:
 
