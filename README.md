@@ -41,11 +41,13 @@ The screenshots above show the complete CI/CD pipeline in action, demonstrating 
 
 ## 🗺️ Architecture Overview
 
+![AWS CI/CD Pipeline Architecture](architecture/aws-cicd-architecture-diagram.svg)
+
 The architecture follows modern DevOps practices by creating a fully automated workflow:
 
 1. **Source Stage**: Connected to an S3 bucket to detect code changes
 2. **Build Stage**: Validates and processes code using CodeBuild with Ubuntu environment
-3. **Deployment Capabilities**: Framework for extending to deployment of validated infrastructure changes
+3. **Future Expansion**: Framework for extending to additional stages as needed
 
 This architecture eliminates manual deployment errors, ensures consistent infrastructure, and accelerates the feedback loop for development teams.
 
@@ -69,7 +71,8 @@ aws-cicd-pipeline-infrastructure/
 ├── architecture/                # Architecture diagrams and screenshots
 │   ├── pipeline-successful-execution.png
 │   ├── build-logs-success.png
-│   └── cloudformation-outputs.png
+│   ├── cloudformation-outputs.png
+│   └── aws-cicd-architecture-diagram.svg
 ├── docs/                        # Additional documentation
 │   └── logical-flow.md          # Pipeline logical flow explanation
 ├── .gitignore                   # Git ignore configuration
