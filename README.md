@@ -172,12 +172,6 @@ Navigate to the AWS CodePipeline console to watch your pipeline run.
 
 ---
 
-## </> Development Notes
-
-This project was developed with assistance from Claude to code and enhance documentation quality. All implementations were validated and tested by me.
-
----
-
 ## 👤 Author
 
 **Jimmy Peralta**  
